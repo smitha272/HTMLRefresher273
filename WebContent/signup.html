@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Census Sheet</title>
+</head>
+<body>
+
+<h1>Enter your details and submit.</h1>
+
+<form action="">
+
+<p><label><span>Email Id: </span><input type="email" name=emailInput required></label></p>
+<p><label><span>Your URL: </span><input type="url" name=urlInput ></label></p>	
+<p><label><span>firstName: </span><input type="text" autofocus></label></p>
+<p><label><span>lastName: </span><input type="text" placeholder="This is how placeholder works"></label></p>
+<p><label><span>zipCode: </span><input type="text" pattern="^[9].{4}$" required oninvalid="this.setCustomValidity('Enter valid California zipcode here.')" oninput="setCustomValidity('')"></label></p>
+<p><label><span>age: </span><input type="number" required min="18"></label></p>
+
+
+<p><button onclick="success.html">Submit</button></p>
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+

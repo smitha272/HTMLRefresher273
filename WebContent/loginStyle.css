@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+#left{
+	float:left;
+	padding:20px;
+	border:3px solid black;
+}
+#right{
+	float:left;
+	padding:20px;
+	border:3px solid blue;
+	setwidth:250px;
+	margin-left:20px;
+}
